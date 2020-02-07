@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+
+#container-box-1, #container-box-2, #container-box-3{
+    border: 2px solid black;
+    background-color: azure;
+    width: 30%;
+    height: 20%;
+    margin: 0.3%;
+    display: inline-block;
+    padding: 1%;
+    padding-top: .1%;
+}
+
+.box-title
+{
+    position: relative;
+    bottom:10%;
+    left: 82%;
+    background-color: blanchedalmond
+}
+
+#box1
+{
+    width:55px;
+}
+
+#box2
+{
+    width:35px;
+}
+
+#box3
+{
+    width:30px;
+}
+
+@media (max-width: 991px) and (min-width: 768px)
+{
+    #container-box-3
+    {
+        display: block;
+        width: 97%;
+    }
+    #container-box-1, #container-box-2
+    {
+        width: 46.5%;
+    }
+    #box3
+    {
+        position:relative;
+        left:95%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    #container-box-2, #container-box-1, #container-box-3
+    {
+        display: block;
+        width: 93%;
+        margin: 2%
+    }
+    .box-title
+    {
+        position: relative;
+        left:90%;
+    }
+}
